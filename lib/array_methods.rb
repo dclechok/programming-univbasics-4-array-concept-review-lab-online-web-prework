@@ -4,10 +4,13 @@ def find_element_index(array, value_to_find)
     if(array[c] == value_to_find)
       return TRUE
     end
+  end
 end
 
 def find_max_value(array)
-  # Add your solution here
+  c = array.length
+  c.times do
+    if
 end
 
 def find_min_value(array)
