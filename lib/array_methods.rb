@@ -24,6 +24,8 @@ def find_min_value(array)
   lowest_int = 0
   c.times do |i|
     if(array[i] <= array[i+1])
+      p array[i]
+      p array[i+1]
       lowest_int = array[i]
     end
   end
