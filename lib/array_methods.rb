@@ -4,18 +4,19 @@ def find_element_index(array, value_to_find)
     if(array[i] == value_to_find)
       return i
     end
-		#i += 1
   end
 	return nil
 end
 
-
-=begin
 def find_max_value(array)
-
+  c = array.length
+  highest_int = 0
+  c.times do |i|
+    if(array[i] > highest_int)
+      highest_int == i
+    end
 end
 
 def find_min_value(array)
   # Add your solution here
 end
-=end
